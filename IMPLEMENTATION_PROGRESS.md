@@ -18,3 +18,11 @@ Explicit save in browser storage; JSON download; browser print/PDF; deletion con
 
 ## Validation
 Worksheet DOM interaction checks passed: explicit local save, JSON export creation, print invocation, and deletion. AleXelA calculator valid/invalid margin checks passed. Soul Print and Soul & Sentence builds passed; AleXelA's 92 existing tests passed. Aurality app.js syntax check passed. Full visual/mobile and hardware testing has not been completed; local browser installation failed. No claim is made that all original tools pass end-to-end testing.
+
+## Continued work — GED practice and portable notes
+- 12 original GED foundation questions across math, language, science, and social studies with explanations, unanswered feedback, retry, and print.
+- DOM checks cover fully correct, mixed, unanswered, and reset states.
+- Family workbook supports validated same-workbook note import.
+- Next.js production build passed after GED and public worksheet additions.
+
+Hosting remains blocked for new projects by Vercel account permissions. No new live URL is claimed.
