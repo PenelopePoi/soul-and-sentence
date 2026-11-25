@@ -7,7 +7,7 @@ export default function Home(): React.ReactElement {
     return (
         <main className="min-h-screen">
             <Hero />
-            <Program />
+            <section className="mx-auto max-w-4xl px-6 py-12"><h2 className="font-serif text-3xl">Repentance by the Pen</h2><p className="mt-4">Writing for accountability, learning, family connection, and a future beyond incarceration. Explore printable journal prompts, GED practice, family letters, making-amends exercises, case research notes, and reentry planning.</p><a className="mt-6 inline-block rounded-md bg-ink-900 px-6 py-3 text-ink-50" href="/family-workbook.html">Open the printable family &amp; growth workbook</a><p className="mt-4 text-sm">Resource numbers require facility-specific calling verification. Educational materials are not individual legal advice. This is a developing nonprofit initiative; mailing availability and any publication payments must be confirmed with the program.</p></section><Program />
             <HowItWorks />
             <Involve />
             <Address />
@@ -21,7 +21,7 @@ function Hero(): React.ReactElement {
         <section className="border-b border-ink-200 bg-ink-50">
             <div className="mx-auto max-w-4xl px-6 py-24">
                 <p className="text-sm font-semibold tracking-[0.3em] text-brass-600">
-                    SOUL &amp; SENTENCE · REDEMPTION BY THE PEN
+                    SOUL &amp; SENTENCE · REPENTANCE BY THE PEN
                 </p>
                 <h1 className="mt-8 font-serif text-5xl leading-tight text-ink-900 sm:text-6xl">
                     Your sentence is time.<br />
@@ -92,7 +92,7 @@ const STEPS: { n: string; title: string; body: string }[] = [
     { n: '1', title: 'Receive your prompts',   body: 'A workbook and a set of writing prompts are mailed or handed to any incarcerated person who asks. No application. No cost. You work through them at your own pace.' },
     { n: '2', title: 'Write without filter',   body: 'No word count. No format. No grade. Full sentences or fragments. A letter, a poem, a rant, a list. The only rule is honesty.' },
     { n: '3', title: 'Reflect and revisit',    body: 'After you write, let it sit. Come back the next day. Read it like someone else wrote it. Truth reveals itself in layers.' },
-    { n: '4', title: 'Submit — if you choose', body: 'Voluntary. Accepted pieces appear in our anthology, a published collection of writing from inside. Contributors receive copies and a small honorarium.' },
+    { n: '4', title: 'Submit — if you choose', body: 'Voluntary. The planned anthology would collect writing from inside. Publication, copies, and honoraria depend on funding and a confirmed agreement.' },
     { n: '5', title: 'Community — where possible', body: 'In facilities that allow group programming, Soul & Sentence facilitates writing circles. Reading aloud is always optional. Pass is a complete sentence.' },
 ];
 
@@ -138,7 +138,7 @@ const PATHS: { title: string; body: string; cta: string; href: string }[] = [
     },
     {
         title: 'Anthology contributor',
-        body: 'Submit up to 5 pieces per cycle: poetry, prose, hybrid. Contributors keep full copyright. Published pieces receive a $25 honorarium and 3 anthology copies.',
+        body: 'Submit up to 5 pieces per cycle: poetry, prose, hybrid. Contributors keep full copyright. Proposed honoraria and copies depend on funding and confirmation before acceptance.',
         cta: 'Submission guidelines',
         href: `${REPO}/blob/main/operations/anthology-submission-guidelines.md`,
     },
@@ -150,7 +150,7 @@ const PATHS: { title: string; body: string; cta: string; href: string }[] = [
     },
     {
         title: 'Grant officer',
-        body: 'Current legal status is planned 501(c)(3) in Florida; fiscal sponsorship arrangements available. Formation checklist tracks progress.',
+        body: 'Current legal status is planned 501(c)(3) in Florida; fiscal sponsorship is a goal, not a confirmed arrangement. Formation checklist tracks progress.',
         cta: '501(c)(3) formation status',
         href: `${REPO}/blob/main/legal/501c3-formation-checklist-florida.md`,
     },
